@@ -1,0 +1,30 @@
+main {
+  width: 100vw;
+
+  .product-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    margin: 5rem auto;
+  }
+
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 90%;
+    }
+
+    button {
+      background-color: rgb(238, 99, 124);
+      color: #fff;
+      border: none;
+      border-radius: 15px;
+      font-size: 0.6rem;
+      padding: 0.5rem;
+      width: 8rem;
+    }
+  }
+}
